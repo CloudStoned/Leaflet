@@ -2,6 +2,14 @@ import React from "react";
 import './Body.css';
 import leaf1 from '../assets/leaf-balayong.jpg';
 import leaf2 from '../assets/leaf-bayabas.png';
+import leaf3 from '../assets/leaf-betis.jpg';
+import leaf4 from '../assets/leaf-dao.jpg';
+import leaf5 from '../assets/leaf-dita.jpg';
+import leaf6 from '../assets/leaf-guyabano.jpg';
+import leaf7 from '../assets/leaf-ilangilang.jpg';
+import leaf8 from '../assets/leaf-ipil.jpg';
+import leaf9 from '../assets/leaf-kalios.jpg';
+import leaf10 from '../assets/leaf-kamagong.jpg';
 
 export function DictionaryBody() {
     return (
@@ -45,18 +53,79 @@ export function DictionaryBody() {
                 </div>
             </div>
 
-            <div className="leaves-container">
+            <div className="leaves-container" style={{ overflowX: 'auto' }}>
+
+                <div className="leaves-title">
+                    <h2>Leaves</h2>
+                </div>
+
                 <div className="leaf-text">
                     <img src={leaf1} alt="Leaf Image" className="leaf-pic-size" />
                     <div className="leaf-name">
-                        <p>Dita</p>
+                        <p>Balayong</p>
                     </div>
                 </div>
 
                 <div className="leaf-text">
                     <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
                     <div className="leaf-name">
+                        <p>Bayabas</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf3} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Betis</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf4} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Dao</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf5} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Dita</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf6} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
                         <p>Guyabano</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf7} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Ilang-ilang</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf8} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Ipil</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf9} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Kalios</p>
+                    </div>
+                </div>
+
+                <div className="leaf-text">
+                    <img src={leaf10} alt="Leaf Image" className="leaf-pic-size" />
+                    <div className="leaf-name">
+                        <p>Kamagong</p>
                     </div>
                 </div>
 
