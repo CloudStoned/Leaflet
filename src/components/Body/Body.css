@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #015249;
+}
+
+.title {
+    text-align: center;
+}
+
+.container-1 {
+    background: #CDEBDE;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 350px; 
+    padding-right: 350px; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    border-radius: 15px; 
+}
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        padding: 20px; 
+    }
+}
