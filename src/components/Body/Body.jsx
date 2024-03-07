@@ -1,5 +1,9 @@
 import React from "react";
 import './Body.css';
+import leaf1 from '../assets/leaf-balayong.jpg';
+import leaf2 from '../assets/leaf-bayabas.png';
+
+
 
 export function DictionaryBody() {
     return (
@@ -42,7 +46,27 @@ export function DictionaryBody() {
                     
                 </div>
             </div>
-            
+
+            <div className="leaves-container">
+                <img src={leaf1} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+                <img src={leaf2} alt="Leaf Image" className="leaf-pic-size" />
+
+
+            </div>
+
+
+
+
+
+
         </div>
     );
 }
